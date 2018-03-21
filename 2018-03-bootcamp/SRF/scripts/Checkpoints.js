@@ -7,13 +7,9 @@ var verify = require('leanft/verify');
 
 describe('demo',function(){
 	var browser;
-	var url = process.env.url;
-	if (url===undefined)
-		url="http://www.advantageonlineshopping.com/#/";
-
-	var expectedPrice = process.env.expectedPrice;
-    if (expectedPrice===undefined)
-		expectedPrice="1,279.00";
+	var url="http://www.advantageonlineshopping.com/#/";
+	var expectedPrice="1,279.00";
+	
 
 	before(function(done){
 		LFT.init({});
