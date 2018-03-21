@@ -29,7 +29,7 @@ public class SeleniumRemote {
 
         capabilities.setCapability("SRF_CLIENT_ID", "<Client ID>"); // Your Client ID here
         capabilities.setCapability("SRF_CLIENT_SECRET", "<Client Seceret>"); // Your Client Secret here
-        capabilities.setCapability("name","<Test Name>"); // This will be the name of the test that will appear in SRF
+        capabilities.setCapability("testName","<Test Name>"); // This will be the name of the test that will appear in SRF
 
         capabilities.setVersion("<Browser Version>"); // Change this to your browser version. ("54")
         capabilities.setCapability("platform","<OS Version>"); // The OS that your script will run on. "Windows 7"
